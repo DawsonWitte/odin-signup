@@ -1,0 +1,41 @@
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+.logo-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 200px;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: -10px;
+    margin-top: 15vh;
+    z-index: 10;
+}
+
+.logo-text{
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    opacity: 1;
+    color: rgba(200, 200, 200, 1);
+}
+
+.img-credits{
+    margin-top: 145vh;
+    color: white;
+    position: absolute;
+    font: 1em sans-serif;
+}
+
+.image-left{
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    overflow: hidden;
+    max-width: 40vw;
+    max-height: 100vh;
+}
