@@ -1,8 +1,12 @@
+*{
+    overflow: hidden;
+}
 
 .container{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+
 
 .logo-background{
     display: flex;
@@ -12,8 +16,8 @@
     height: 200px;
     width: 40vw;
     background-color: rgba(0, 0, 0, 0.4);
-    margin-left: -10px;
-    margin-top: 15vh;
+    margin-left: -1vw;
+    margin-top: 12.5vh;
     z-index: 10;
 }
 
@@ -21,21 +25,62 @@
     font-family: 'Monoton', cursive;
     font-size: 100px;
     opacity: 1;
-    color: rgba(200, 200, 200, 1);
+    color: #f0f0f0;
 }
 
 .img-credits{
-    margin-top: 145vh;
+    margin-top: 95vh;
+    margin-bottom: 5vh;
+    margin-left: 2.5vw;
     color: white;
-    position: absolute;
+    position: fixed;
     font: 1em sans-serif;
+    z-index: 10;
+    margin-bottom: 5vh;
 }
 
 .image-left{
+    position: fixed;
     margin-top: -8px;
-    margin-left: -10px;
+    margin-left: -1vw;
     margin-bottom: -10px;
-    overflow: hidden;
     max-width: 40vw;
     max-height: 100vh;
+}
+
+.sign-up-right{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    margin-left: 39vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.enticing-text{
+    height: 33vh;
+    width: 61vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 175px;
+    padding-right: 175px;
+    font-size: 25px;
+}
+
+.sign-up-form{
+    background-color: #f0f0f0;
+    height: 33vh;
+    width: 61vw;
+}
+
+.accountt-buttons{
+    height: 33vh;
+    width: 61vw;
 }
