@@ -59,7 +59,7 @@
 }
 
 .enticing-text{
-    height: 33vh;
+    height: 40vh;
     width: 61vw;
     display: flex;
     justify-content: center;
@@ -69,18 +69,83 @@
 .text-container{
     font-size: 20px;
     padding-top: 50px;
-    padding-left: 175px;
-    padding-right: 175px;
+    padding-left: 100px;
+    padding-right: 100px;
     font-size: 25px;
 }
 
 .sign-up-form{
-    background-color: #f0f0f0;
-    height: 33vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #f7f7f7;
+    height: 40vh;
+    width: 61vw;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: space-evenly;
+    align-items: right;
+}
+
+form input{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid #75a0e6;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 100px
+}
+
+.form-right label{
+    margin-top: 50px;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+}
+
+.form-left label{
+    margin-top: 50px;
+}
+
+span{
+    position: relative;
+}
+
+.account-buttons{
+    padding-top: 25px;
+    padding-left: 100px;
+    height: 20vh;
     width: 61vw;
 }
 
-.accountt-buttons{
-    height: 33vh;
-    width: 61vw;
+.create-button{
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    color:white;
+    background-color: #75a0e6;
+    border-radius: 30px;
+    border: 3px solid lightgray;
+    cursor: pointer;
 }
